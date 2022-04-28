@@ -5,6 +5,11 @@ Open Neural Network Exchange (ONNX) Runtime is an open source project that is de
 
 This repository is related to my echocasrdiographic phase detection project. For code [visit](https://github.com/elisabethlane/EchoPhaseDetection) and [here](https://elisabethlane.github.io/projects/phase_detection.html) for a detailed description, including access to the dataset and published paper.
 
-For a simple tf to ONNX model tutorial for image classification visit [this](https://github.com/elisabethlane/ONNX_Conversion) repository.
+To access the model weights in ONNX format (converted from tf) click [here](https://drive.google.com/file/d/18pOJLL7bzt1_fKhlYOhBBzjbqgnPJVY-/view?usp=sharing).
 
-https://drive.google.com/file/d/18pOJLL7bzt1_fKhlYOhBBzjbqgnPJVY-/view?usp=sharing
+### File descriptions:
+
+`processing.py` - Data management class used during inference\
+`onnx_inference.py` - Inference script to predict ED and ES frames from echocardiographic images of arbitrary length (using ONNX file)
+
+For a simple tf to ONNX model tutorial for image classification, and to assist in understanding this code, visit [this](https://github.com/elisabethlane/ONNX_Conversion) repository.
