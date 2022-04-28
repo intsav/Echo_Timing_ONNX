@@ -12,4 +12,4 @@ To access the model weights in ONNX format (converted from tf) click [here](http
 `processing.py` - Data management class used during inference\
 `onnx_inference.py` - Inference script to predict ED and ES frames from echocardiographic images of arbitrary length (using ONNX file)
 
-For a simple tf to ONNX model tutorial for image classification, and to assist in understanding this code, visit [this](https://github.com/elisabethlane/ONNX_Conversion) repository.
+For a simple tf to ONNX model tutorial for image classification, and to assist in understanding this code, visit [this](https://github.com/intsav/ONNX_Conversion) repository.
